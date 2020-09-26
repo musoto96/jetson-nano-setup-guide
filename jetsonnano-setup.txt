@@ -3,9 +3,8 @@ Moises Soto
 
  Introduction.
 This is a complete setup guide for the Nvidia Jetson nano system, 
-it is mainly written with the purpose of being a personal reminder 
-for future setups but also as a guide for anyone with the similar 
-needs.
+it is mainly written as a personal reminder for future setups but 
+also as a guide for anyone in need of a similar setup.
 
  Objective
 The goal is to get the jetson nano running headless, powering it 
@@ -19,10 +18,9 @@ through ssh or a VNC server for a virtual desktop.
 3. A jumper for the J-48 pin, and a compatible barrel-jack power 
     supply (only for the initial setup).
 2. The peripherals to operate the Jetson Nano in stand-alone mode, 
-    (only for the initial configurations).
+    i.e. no host machine yet (only for the initial configurations).
 2. A usb cable with data capabilities as we will configure it 
-    for headless mode and operate it via the host-machine it will 
-    connect to.
+    for headless mode and operate it via the host-machine.
 
 
  What it covers.
@@ -71,7 +69,9 @@ then compile the schemas with
 
 
 VNC Setup.
-At this point we can follow the README-vnc.txt which is included along with other files in the system documentation and should be mounted automatically under /media/username/L4-README
+At this point we can follow the README-vnc.txt which is included 
+along with other files in the system documentation and should be 
+mounted automatically under /media/username/L4-README
 
 from README-vnc.txt
 
